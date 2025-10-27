@@ -1,0 +1,9 @@
+The most used RAG metrics include:
+
+* Answer Relevancy: Evaluates if the generated answer is relevant to the user query
+* Faithfulness: Measures if the generated answer is factually consistent with the provided context
+* Contextual Relevancy: Assesses if the retrieved context is relevant to the user query
+* Contextual Recall: Evaluates if the retrieved context contains all relevant information
+* Contextual Precision: Measures if the retrieved context is precise and focused
+
+All these could simply be imported from the deepeval.metrics module.
